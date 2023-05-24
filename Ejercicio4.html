@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Ejercicio4.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+   
+<script>
+    //
+    var fruta
+    //
+    fruta=prompt("Que fruta te gusta?").toLowerCase()
+
+    switch (fruta.toLowerCase() ) {
+        case "manzana":document.write("<h1>Elegiste <b class='manzana'>manzana</b><br></h1>")
+             document.write("<p>Es una fruta redonda o alargada, de piel fina y color variado (rojo, verde, amarillo). Es jugosa y tiene un sabor dulce o ligeramente ácido. Es conocida por su textura crujiente y es ampliamente consumida en todo el mundo.<br></p>")
+             document.write("<img id='manzana' src='imgs/manzana.webp'>");
+            break;
+            
+            case "platano":document.write("<h1>Elegiste <b class='platano'>platano</b><br></h1>")
+             document.write("<p>Es una fruta alargada con una piel amarilla que se pela fácilmente. Tiene una pulpa suave y dulce, y es una fuente importante de nutrientes como potasio y vitamina C. Es versátil y se puede comer fresco, utilizar en postres o como ingrediente en batidos.<br></p>")
+             document.write("<img id='platano' src='imgs/platano.jpg'>");
+            break;
+            case "naranja":document.write("<h1>Elegiste <b class='naranja'>naranja</b><br></h1>")
+             document.write("<p> Es una fruta redonda y de color naranja brillante, con una piel rugosa y una pulpa jugosa y refrescante. Es conocida por su alto contenido de vitamina C y su sabor agridulce. Se consume fresca, en jugos o como ingrediente en numerosas recetas.<br></p>")
+             document.write("<img id='naranja' src='imgs/naranja.jpg'>");
+            break;
+            case "uva":document.write("<h1>Elegiste <b class='uva'>uva</b><br></h1>")
+             document.write("<p> Pequeña fruta redonda o alargada que crece en racimos. Puede ser de diversos colores como verde, rojo o morado. Es jugosa y dulce, y se utiliza para hacer vino, jugos y postres.<br></p>")
+             document.write("<img id='uva' src='imgs/uva.jpg'>");
+            break;
+            case"pera":document.write("<h1>Elegiste <b class='pera'>pera</b><br></h1>")
+            document.write("<p> Fruta de forma redondeada con una piel suave y de diversos colores como verde, amarillo o rojo. Tiene una pulpa jugosa y dulce, y es conocida por su textura suave y delicada. Se consume fresca y se utiliza en la preparación de postres y mermeladas.<br></p>")
+            document.write("<img id='pera' src='imgs/pera.webp'>");
+            break;
+           
+        default:document.write("<h2>Fruta no encontrada</h2>")
+        document.write("<img id='error' src='imgs/error.jpg'>");
+            
+            break;
+    }
+
+</script>
+<p id="autor">Programado por Diego Vergara</p>
+</body>
+</html>

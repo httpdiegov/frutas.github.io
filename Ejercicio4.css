@@ -1,0 +1,35 @@
+p{
+  font-size: 23px;
+  font-family:'Times New Roman', Times, serif;
+}
+.manzana{
+  color: red;
+}
+.platano{
+  color: yellow;
+}
+.naranja{
+  color: orange;
+}
+.uva{
+  color: purple;
+}
+.pera{
+  color: green;
+}
+#uva{
+  height: 400px;
+}
+#error{
+  height: 350px;
+}
+
+
+
+h2 {
+    /* Estilos para los elementos <p> */
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    /* ...otros estilos */
+  }
+  
